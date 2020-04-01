@@ -28,14 +28,9 @@ passwd=""
 
 terminal_lauched = True
 
-clear=""
+clear="cls"
 
-try:
-    os.system("cls")
-    clear = "cls"
-    os.system("color 2")
-except:
-    clear = "clear"
+
 
 
 
