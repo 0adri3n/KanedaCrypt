@@ -29,7 +29,10 @@ passwd=""
 terminal_lauched = True
 
 def clear():
-   pass 
+    if os.name == 'nt':
+        os.system("cls")
+    else:
+        os.system("clear") 
 
 
 
