@@ -4,7 +4,7 @@
 
 It's very simple.
 
-Just open a command prompt and go to the file where you download KanedaCrypt.py and requirements.txt
+Just open a command prompt and go to the file where you download KanedaCrypt.py and requirements.txt 
 
 ```
 python3 -m pip install -r requirements.txt
