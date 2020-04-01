@@ -1,5 +1,10 @@
 # Kaneda Crypt
 
+#How to download it?
+
+It's very simple
+
+python3 -m pip -r install requirements.txt
  
 
 # Utilities:
