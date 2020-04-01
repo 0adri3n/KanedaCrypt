@@ -13,11 +13,11 @@ After, open a command prompt and go to the folder where you download Kaneda Cryp
 ```
 python3 -m pip install -r requirements.txt
 ```
-If all the packages are dowload, everything is okay (normally).
+If all the packages are downloaded, everything is okay (normally).
 
 # Linux
 
-For linux, it's easier! Open a terminal and execute the following command:
+For Linux, it's easier! Open a terminal and execute the following command:
 
 ```
 git clone https://github.com/akira-trinity/KanedaCrypt.git
