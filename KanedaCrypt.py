@@ -31,12 +31,12 @@ terminal_lauched = True
 clear=""
 
 platform = open("platform.txt", "r")
-if platform == "Windows":
+if platform.read() == "Windows":
     clear = "cls"
     os.system("color 2")
-elif platform == "Linux":
+elif platform.read() == "Linux":
     clear = "clear"
-elif platform == "Mac":
+elif platform.read() == "Mac":
     clear = "clear"
 else:
     system = input("\nPlease enter your OS system [Windows, Linux or Mac] [Please write it good]> ")
