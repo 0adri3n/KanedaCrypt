@@ -6,7 +6,7 @@
 
 [1] Generate a password
 
-[2] Generate your personal encryption key
+[2] Generate your personnal encryption key
 
 [3] Encrypt
 
