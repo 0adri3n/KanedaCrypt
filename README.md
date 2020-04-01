@@ -1,6 +1,6 @@
 # Kaneda Crypt
 
-#How to download it?
+# How to download it?
 
 It's very simple.
 
