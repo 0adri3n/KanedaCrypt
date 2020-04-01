@@ -17,7 +17,7 @@ If all the packages are dowload, everything is okay (normally).
 
 # Linux
 
-For linux, it's easier! Open a terminal execute this:
+For linux, it's easier! Open a terminal and execute the following command:
 
 ```
 git clone https://github.com/akira-trinity/KanedaCrypt.git
@@ -27,7 +27,14 @@ git clone https://github.com/akira-trinity/KanedaCrypt.git
 
 # Windows
 
-Basically, the easiest way to use it is to launch the script in the command prompt:
+Basically, the easiest way to use it is to launch the script in the command prompt.
+
+First, go in the folder where do you download Kaneda Crypt:
+
+```
+cd [The path to the folder]
+```
+And after this, just run the script!
 
 ```
 python3 KanedaCrypt.py
@@ -35,7 +42,7 @@ python3 KanedaCrypt.py
 
 # Linux
 
-Go to the folder of Kaneda Crypt
+Go to the folder of Kaneda Crypt:
 
 ```
 cd KanedaCrypt
