@@ -28,22 +28,9 @@ passwd=""
 
 terminal_lauched = True
 
-clear=""
+def clear():
+   pass 
 
-platform = open("platform.txt", "r")
-if platform.read() == "Windows":
-    clear = "cls"
-    os.system("color 2")
-elif platform.read() == "Linux":
-    clear = "clear"
-elif platform.read() == "Mac":
-    clear = "clear"
-else:
-    system = input("\nPlease enter your OS system [Windows, Linux or Mac] [Please write it good]> ")
-    platform = open("platform.txt", "w")
-    platform.write(system)
-    platform.close()
-    print("\n Thanks you.\n")
 
 
 
@@ -114,7 +101,7 @@ Kaneda Crypt> "))
         terminal_lauched = False
 
     elif choice == 6:
-        os.system(clear)
+        clear()
         print("\
 ____  __.                        .___        _________                              \n\
 |    |/ _|____    ____   ____   __| _/____    \_   ___ \_______ ___.__._______/  |_ \n\
