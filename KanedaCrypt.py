@@ -22,6 +22,7 @@ import base64
 
 
 
+
 element = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+-*/~$%&.:?!"
 
 passwd=""
@@ -31,9 +32,13 @@ terminal_lauched = True
 def clear():
     if os.name == 'nt':
         os.system("cls")
+        os.system("color 2") 
     else:
-        os.system("clear") 
+        os.system("clear")
 
+def color():
+    if os.name == 'nt':
+        os.system("color 2") 
 
 
 
@@ -53,7 +58,7 @@ ____  __.                        .___        _________                          
 ")
 
 while terminal_lauched:
-
+    color()
     choice = int(input("\
 [1] Generate a password \n\
 [2] Generate your personal key \n\
