@@ -2,11 +2,14 @@
 
 #How to download it?
 
-It's very simple
+It's very simple.
 
-```css
+Just open a command prompt and go to the file where you download KanedaCrypt.py and requirements.txt
+
+```
 python3 -m pip install -r requirements.txt
 ```
+If all the packages are dowload, everything is okay (normally).
 
 # Utilities:
 
