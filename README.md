@@ -4,8 +4,9 @@
 
 It's very simple
 
-python3 -m pip -r install requirements.txt
- 
+```css
+python3 -m pip install -r requirements.txt
+```
 
 # Utilities:
 
