@@ -11,6 +11,14 @@ python3 -m pip install -r requirements.txt
 ```
 If all the packages are dowload, everything is okay (normally).
 
+# How to use it?
+
+Basically, the easiest way to use it is to launch the script in the command prompt:
+
+```
+python3 KanedaCrypt.py
+```
+
 # Utilities:
 
 [1] Generate a password
