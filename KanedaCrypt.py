@@ -57,12 +57,12 @@ ____  __.                        .___        _________                          
                                                                                 https://github.com/akira-trinity \n\
 ")
 
+clear()
+
 print(kaneda)
 
 while terminal_lauched:
     color()
-    clear()
-    print(kaneda)
     choice = int(input("\
 [1] Generate a password \n\
 [2] Generate your personal key \n\
