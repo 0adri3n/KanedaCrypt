@@ -64,7 +64,8 @@ while terminal_lauched:
 [2] Generate your personal key \n\
 [3] Encrypt \n\
 [4] Decrypt \n\
-[5] Exit                            [6] Clear\n\
+[5] Exit \n\                                                                           
+[6] Clear\n\
         \n\
 Kaneda Crypt> "))
 
