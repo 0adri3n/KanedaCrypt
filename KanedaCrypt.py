@@ -43,7 +43,7 @@ else:
     platform = open("platform.txt", "w")
     platform.write(system)
     platform.close()
-    print("\n Thanks you.\")
+    print("\n Thanks you.\n")
 
 
 
