@@ -4,11 +4,10 @@
 
 # Utilities:
 
--You can create a aleatory password.
-
--You can crypt the password. [It's your own key, nobody have the same encryption.]
-
--You can decrypt your password.
+[1] Generate a password
+[2] Generate your personal encryption key
+[3] Encrypt
+[4] Decrypt
 
 
 
