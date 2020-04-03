@@ -62,7 +62,10 @@ python3 KanedaCrypt.py
 
 [3] Encrypt
 
-[4] Decrypt
+[4] Encrypt a .txt file
+
+[5] Decrypt
+
 
 
 
