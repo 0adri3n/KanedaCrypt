@@ -45,7 +45,7 @@ python3 KanedaCrypt.py
 Go to the folder of Kaneda Crypt:
 
 ```
-cd KanedaCrypt
+cd KanedaCrypt/
 ```
 
 And run the script!
