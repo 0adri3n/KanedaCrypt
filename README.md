@@ -23,6 +23,12 @@ For Linux, it's easier! Open a terminal and execute the following command:
 git clone https://github.com/akira-trinity/KanedaCrypt.git
 ```
 
+Same, download the modules.
+
+```
+python3 -m pip install -r requirements.txt
+```
+
 # How to use it?
 
 # Windows
