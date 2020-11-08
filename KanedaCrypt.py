@@ -27,9 +27,7 @@ element_symb = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+-
 
 element = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789"
 
-passwd=""
 
-passwd2 = ""
 
 terminal_lauched = True
 
@@ -86,10 +84,12 @@ Kaneda Crypt> "))
         longueur = int(input("\nHow many caracters you want in your password?> "))
         symb = input("\nDo you want symbols in your password?[Y/N]> ")
         if symb == "Y":
+            passwd=""
             for i in range(longueur):
                 passwd = passwd + element_symb[random.randint(0, len(element_symb) - 1)]
             print("\nYour password: \n \n" + passwd + "\n\n")
         elif symb == "N":
+            passwd2 = ""
             for i in range(longueur):
                 passwd2 = passwd2 + element[random.randint(0, len(element) - 1)]
             print("\nYour password: \n \n" + passwd2 + "\n\n")
